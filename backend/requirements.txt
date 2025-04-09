@@ -1,1 +1,7 @@
-Commande ECHO activ‚e.
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+httpx
