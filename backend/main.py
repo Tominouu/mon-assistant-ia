@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from .db import SessionLocal, init_db
-from .models import User, Message
+from db import SessionLocal, init_db
+from models import User, Message
 import httpx
 
 app = FastAPI()
